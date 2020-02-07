@@ -13,7 +13,7 @@ nav_title_link: /docs/
 ## Locals
 
 You can use locals to bind a name to an expression, so you can reuse that expression without having to repeat it multiple times (keeping your Terragrunt configuration DRY).
-config. For example, suppose that you need to use the AWS region in multiple inputs. You can bind the name `aws_region`
+For example, suppose that you need to use the AWS region in multiple inputs. You can bind the name `aws_region`
 using locals:
 
 ```
